@@ -1,2 +1,1 @@
-# TelegramBotTemplate
-Telegram bot project template using aiogram
+# Random Post Bot
