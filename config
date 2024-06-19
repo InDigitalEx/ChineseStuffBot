@@ -1,5 +1,5 @@
 BOT_TOKEN=TOKEN_HERE
-DATABASE_URL=sqlite+aiomysql://root@localhost/random_post_bot
+DATABASE_URL=mysql+aiomysql://root@localhost/random_post_bot
 DEBUG=TRUE
 CHANNEL_NAME=@YOUR_CHANNEL
 POST_INTERVAL=600
