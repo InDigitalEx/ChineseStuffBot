@@ -5,7 +5,11 @@ aiogram
 # Database
 SQLAlchemy
 aiosqlite
+aiomysql
 
 # Pydantic
 pydantic
 pydantic-settings
+
+# Schedule
+APScheduler

@@ -38,7 +38,7 @@ def main() -> None:
     init_logger()
     try:
         asyncio.run(run_bot())
-    except KeyboardInterrupt:
+    except (KeyboardInterrupt, SystemExit):
         logging.info('Shutting down...')
 
 
